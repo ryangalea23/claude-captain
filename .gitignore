@@ -1,0 +1,16 @@
+# Allowlist: ignore everything, then un-ignore only what ships.
+*
+!.gitignore
+!LICENSE
+!README.md
+!CAPTAIN.md
+!skills/
+!skills/dispatch-brief/
+!skills/dispatch-brief/SKILL.md
+!skills/escalate-or-decide/
+!skills/escalate-or-decide/SKILL.md
+!scripts/
+!scripts/decisions.py
+!scripts/decisions-panel.py
+!scripts/test_decisions.py
+!scripts/test_decisions_panel.py
