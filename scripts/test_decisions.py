@@ -33,7 +33,7 @@ class DecisionsTestCase(unittest.TestCase):
     def test_open_then_buried_under_50_lines_still_shows_open(self):
         ok, _ = decisions.cmd_open(
             self.log_path, "gpu-quota", question="Can we raise the quota?",
-            asked_by="firstmate-eval",
+            asked_by="eval-worker",
         )
         self.assertTrue(ok)
 

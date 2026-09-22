@@ -12,7 +12,7 @@ re-derived from memory, drifts, and loses track of a question that is still
 open. This script is the fix — the open/closed state of every decision lives
 on disk, not in anyone's context window.
 
-DESIGN (copied from firstmate's hardest-won lesson — follow it exactly)
+DESIGN (a lesson learned the hard way - follow it exactly)
 ------------------------------------------------------------------------
 - The log is APPEND-ONLY. One JSON object per line. A line is never rewritten
   or deleted. A crash loses nothing, because nothing is held in memory
